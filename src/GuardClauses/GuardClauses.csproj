@@ -10,10 +10,10 @@
         <Authors>Steve Smith (@ardalis) - Guillaume Brassard</Authors>
         <Company>Ardalis.com - UL</Company>
         <PackageDescription>Fork of Ardalis.GuardClauses with .NET 9 support.</PackageDescription>
-        <PackageProjectUrl>https://github.com/ardalis/guardclauses</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/Universite-Laval-SAS/GuardClauses</PackageProjectUrl>
         <Description>A simple package by @ardalis and @nimblepros with guard clause helper methods. See docs for how to extend using your own extension methods defined in your project.</Description>
         <Summary>A simple package with guard clause helper methods. See docs for how to extend using your own extension methods.</Summary>
-        <RepositoryUrl>https://github.com/ardalis/guardclauses</RepositoryUrl>
+        <RepositoryUrl>https://github.com/Universite-Laval-SAS/GuardClauses</RepositoryUrl>
         <PackageTags>guard clause clauses assert assertion</PackageTags>
         <PackageReleaseNotes>
             * Updating to 5.0 because 4.6 had breaking logic (see #354)
