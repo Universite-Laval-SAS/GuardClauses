@@ -1,46 +1,40 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    </PropertyGroup>
-    <PropertyGroup>
-        <TargetFrameworks>net9.0;net8.0;netstandard2.1;netstandard2.0</TargetFrameworks>
+        <TargetFramework>net9.0</TargetFramework>
         <PackageId>Ardalis.GuardClauses.Net9</PackageId>
         <Title>Ardalis.GuardClauses.Net9</Title>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Authors>Steve Smith (@ardalis) - Guillaume Brassard</Authors>
-        <Company>Ardalis.com - UL</Company>
-        <PackageDescription>Fork of Ardalis.GuardClauses with .NET 9 support.</PackageDescription>
-        <PackageProjectUrl>https://github.com/Universite-Laval-SAS/GuardClauses</PackageProjectUrl>
-        <Description>A simple package by @ardalis and @nimblepros with guard clause helper methods. See docs for how to extend using your own extension methods defined in your project.</Description>
-        <Summary>A simple package with guard clause helper methods. See docs for how to extend using your own extension methods.</Summary>
-        <RepositoryUrl>https://github.com/Universite-Laval-SAS/GuardClauses</RepositoryUrl>
-        <PackageTags>guard clause clauses assert assertion</PackageTags>
-        <PackageReleaseNotes>
-            * Updating to 5.0 because 4.6 had breaking logic (see #354)
-            * Updated Obsolete message for Guard.Against.Expression to clarify reversal of logic (#457)
-        </PackageReleaseNotes>
-        <Version>5.0.5</Version>
+        <Version>5.0.6</Version>
         <AssemblyName>Ardalis.GuardClauses.Net9</AssemblyName>
         <RootNamespace>Ardalis.GuardClauses.Net9</RootNamespace>
+        <Authors>Steve Smith (@ardalis) - Guillaume Brassard</Authors>
+        <Company>Ardalis.com - UL</Company>
+        <Description>Fork of Ardalis.GuardClauses with .NET 9 support.</Description>
+        <PackageDescription>Fork of Ardalis.GuardClauses with .NET 9 support.</PackageDescription>
+        <PackageTags>guard clause clauses assert assertion</PackageTags>
+        <PackageProjectUrl>https://github.com/Universite-Laval-SAS/GuardClauses</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Universite-Laval-SAS/GuardClauses</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReleaseNotes>Added .NET 9 support.</PackageReleaseNotes>
         <PackageIcon>icon.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
         <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     </PropertyGroup>
+
     <PropertyGroup>
         <DocumentationFile>bin\$(Configuration)\Ardalis.GuardClauses.xml</DocumentationFile>
     </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
     </ItemGroup>
+
     <ItemGroup>
         <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
-        <!-- IMPORTANT: adding the Readme as a link -->
         <None Include="..\..\README.md" Pack="true" PackagePath="">
             <Link>Properties\README.md</Link>
         </None>
-
     </ItemGroup>
-
 </Project>
