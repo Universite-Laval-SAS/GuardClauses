@@ -3,12 +3,13 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
     <PropertyGroup>
-        <TargetFrameworks>net8.0;netstandard2.1;netstandard2.0</TargetFrameworks>
-        <PackageId>Ardalis.GuardClauses</PackageId>
-        <Title>Ardalis.GuardClauses</Title>
+        <TargetFrameworks>net9.0;net8.0;netstandard2.1;netstandard2.0</TargetFrameworks>
+        <PackageId>Ardalis.GuardClauses.Net9</PackageId>
+        <Title>Ardalis.GuardClauses.Net9</Title>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Authors>Steve Smith (@ardalis)</Authors>
-        <Company>Ardalis.com</Company>
+        <Authors>Steve Smith (@ardalis) - Guillaume Brassard</Authors>
+        <Company>Ardalis.com - UL</Company>
+        <PackageDescription>Fork of Ardalis.GuardClauses with .NET 9 support.</PackageDescription>
         <PackageProjectUrl>https://github.com/ardalis/guardclauses</PackageProjectUrl>
         <Description>A simple package by @ardalis and @nimblepros with guard clause helper methods. See docs for how to extend using your own extension methods defined in your project.</Description>
         <Summary>A simple package with guard clause helper methods. See docs for how to extend using your own extension methods.</Summary>
@@ -18,8 +19,9 @@
             * Updating to 5.0 because 4.6 had breaking logic (see #354)
             * Updated Obsolete message for Guard.Against.Expression to clarify reversal of logic (#457)
         </PackageReleaseNotes>
-        <Version>5.0.0</Version>
-        <AssemblyName>Ardalis.GuardClauses</AssemblyName>
+        <Version>5.0.1-net9.0</Version>
+        <AssemblyName>Ardalis.GuardClauses.Net9</AssemblyName>
+        <RootNamespace>Ardalis.GuardClauses.Net9</RootNamespace>
         <PackageIcon>icon.png</PackageIcon>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
