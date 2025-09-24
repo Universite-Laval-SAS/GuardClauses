@@ -1,4 +1,4 @@
-﻿namespace Ardalis.GuardClauses;
+﻿namespace Ardalis.GuardClauses.Net9;
 
 /// <summary>
 /// Simple interface to provide a generic mechanism to build guard clause extension methods from.

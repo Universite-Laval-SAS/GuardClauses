@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
-using Ardalis.GuardClauses;
+using Ardalis.GuardClauses.Net9;
 using Xunit;
 
 namespace GuardClauses.UnitTests

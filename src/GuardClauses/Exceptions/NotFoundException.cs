@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ardalis.GuardClauses;
+namespace Ardalis.GuardClauses.Net9;
 
 /// <summary>
 /// Represents error that occurs if a queried object by a particular key is null (not found).

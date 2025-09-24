@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Ardalis.GuardClauses;
+using Ardalis.GuardClauses.Net9;
 using Xunit;
 
 namespace GuardClauses.UnitTests;

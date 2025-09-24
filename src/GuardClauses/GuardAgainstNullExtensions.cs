@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
-namespace Ardalis.GuardClauses;
+namespace Ardalis.GuardClauses.Net9;
 
 /// <summary>
 /// A collection of common guard clauses, implemented as extensions.

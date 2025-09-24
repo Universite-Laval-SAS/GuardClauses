@@ -1,4 +1,4 @@
-﻿using Ardalis.GuardClauses;
+﻿using Ardalis.GuardClauses.Net9;
 using System;
 using Xunit;
 

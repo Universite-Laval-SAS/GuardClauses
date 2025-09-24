@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 
 // By using the same namespace, the required using for Ardalis.GuardClauses will include custom guards regardless of location.
-namespace Ardalis.GuardClauses;
+namespace Ardalis.GuardClauses.Net9;
 
 /// <summary>
 /// An example Guard extension method. Throws if input is "foo".

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace Ardalis.GuardClauses;
+namespace Ardalis.GuardClauses.Net9;
 
 public static partial class GuardClauseExtensions
 {

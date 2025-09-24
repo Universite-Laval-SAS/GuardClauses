@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ardalis.GuardClauses;
+namespace Ardalis.GuardClauses.Net9;
 
 public static partial class GuardClauseExtensions
 {

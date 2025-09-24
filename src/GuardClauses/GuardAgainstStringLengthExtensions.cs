@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace Ardalis.GuardClauses;
+namespace Ardalis.GuardClauses.Net9;
 
 /// <summary>
 /// The class containing extension methods for <see cref="IGuardClause"/> 

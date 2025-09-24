@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ardalis.GuardClauses;
+namespace Ardalis.GuardClauses.Net9;
 
 /// <summary>
 /// Add to methods that check input for null and throw if the input is null.

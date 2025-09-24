@@ -20,8 +20,8 @@
             * Updated Obsolete message for Guard.Against.Expression to clarify reversal of logic (#457)
         </PackageReleaseNotes>
         <Version>5.0.3-net9.0</Version>
-        <AssemblyName>Ardalis.GuardClauses</AssemblyName>
-        <RootNamespace>Ardalis.GuardClauses</RootNamespace>
+        <AssemblyName>Ardalis.GuardClauses.Net9</AssemblyName>
+        <RootNamespace>Ardalis.GuardClauses.Net9</RootNamespace>
         <PackageIcon>icon.png</PackageIcon>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
