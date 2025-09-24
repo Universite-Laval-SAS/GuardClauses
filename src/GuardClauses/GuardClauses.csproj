@@ -19,7 +19,7 @@
             * Updating to 5.0 because 4.6 had breaking logic (see #354)
             * Updated Obsolete message for Guard.Against.Expression to clarify reversal of logic (#457)
         </PackageReleaseNotes>
-        <Version>5.0.1-net9.0</Version>
+        <Version>5.0.2-net9.0</Version>
         <AssemblyName>Ardalis.GuardClauses.Net9</AssemblyName>
         <RootNamespace>Ardalis.GuardClauses.Net9</RootNamespace>
         <PackageIcon>icon.png</PackageIcon>
