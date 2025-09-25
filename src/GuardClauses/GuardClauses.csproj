@@ -4,7 +4,7 @@
 
         <PackageId>ardalis.guardclauses.net9</PackageId>
         <Title>Ardalis.GuardClauses.Net9</Title>
-        <Version>5.0.7</Version>
+        <Version>5.0.8</Version>
         <AssemblyName>Ardalis.GuardClauses.Net9</AssemblyName>
         <RootNamespace>Ardalis.GuardClauses.Net9</RootNamespace>
 
