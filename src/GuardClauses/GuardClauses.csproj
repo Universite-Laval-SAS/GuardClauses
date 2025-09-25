@@ -1,13 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-
         <PackageId>ardalis.guardclauses.net9</PackageId>
         <Title>Ardalis.GuardClauses.Net9</Title>
-        <Version>5.0.8</Version>
+        <Version>5.0.9</Version>
         <AssemblyName>Ardalis.GuardClauses.Net9</AssemblyName>
         <RootNamespace>Ardalis.GuardClauses.Net9</RootNamespace>
-
         <Authors>Steve Smith (@ardalis) - Guillaume Brassard</Authors>
         <Company>Ardalis.com - UL</Company>
         <Description>Fork of Ardalis.GuardClauses with .NET 9 support.</Description>
@@ -22,11 +21,9 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
-        <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-
-        <!-- ✅ Ensure DLL is packed under lib/net9.0 -->
-        <IncludeBuildOutput>true</IncludeBuildOutput>
-        <BuildOutputTargetFolder>lib\net9.0</BuildOutputTargetFolder>
+        <AllowedOutputExtensionsInPackageBuildOutputFolder>
+            $(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb
+        </AllowedOutputExtensionsInPackageBuildOutputFolder>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -39,6 +36,9 @@
 
     <ItemGroup>
         <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
-        <None Include="..\..\README.md" Pack="true" PackagePath="README.md" />
+        <None Include="..\..\README.md" Pack="true" PackagePath="">
+            <Link>Properties\README.md</Link>
+        </None>
     </ItemGroup>
+
 </Project>
