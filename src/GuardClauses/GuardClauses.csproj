@@ -1,44 +1,47 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
-        <PackageId>ardalis.guardclauses.net9</PackageId>
-        <Title>Ardalis.GuardClauses.Net9</Title>
-        <Version>5.1.0</Version>
-        <AssemblyName>ardalis.guardclauses.net9</AssemblyName>
-        <RootNamespace>ardalis.guardclauses.net9</RootNamespace>
-        <Authors>Steve Smith (@ardalis) - Guillaume Brassard</Authors>
-        <Company>Ardalis.com - UL</Company>
-        <Description>Fork of Ardalis.GuardClauses with .NET 9 support.</Description>
-        <PackageDescription>Fork of Ardalis.GuardClauses with .NET 9 support.</PackageDescription>
-        <PackageTags>guard clause clauses assert assertion</PackageTags>
-        <PackageProjectUrl>https://github.com/Universite-Laval-SAS/GuardClauses</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/Universite-Laval-SAS/GuardClauses</RepositoryUrl>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageReleaseNotes>Added .NET 9 support.</PackageReleaseNotes>
-        <PackageIcon>icon.png</PackageIcon>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PublishRepositoryUrl>true</PublishRepositoryUrl>
-        <EmbedUntrackedSources>true</EmbedUntrackedSources>
-        <AllowedOutputExtensionsInPackageBuildOutputFolder>
-            $(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb
-        </AllowedOutputExtensionsInPackageBuildOutputFolder>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+      
+    <PackageId>Ardalis.GuardClauses.Net9</PackageId>
+    <AssemblyName>Ardalis.GuardClauses.Net9</AssemblyName>
+    <RootNamespace>Ardalis.GuardClauses</RootNamespace>
 
-    <PropertyGroup>
-        <DocumentationFile>bin\$(Configuration)\Ardalis.GuardClauses.xml</DocumentationFile>
-    </PropertyGroup>
+    <Version>5.1.1</Version>
+    <Title>Ardalis.GuardClauses.Net9</Title>
+    <Authors>Steve Smith (@ardalis) - Guillaume Brassard</Authors>
+    <Company>Ardalis.com - UL</Company>
+    <Description>Fork of Ardalis.GuardClauses with .NET 9 support.</Description>
+    <PackageDescription>Fork of Ardalis.GuardClauses with .NET 9 support.</PackageDescription>
+    <PackageTags>guard clause clauses assert assertion</PackageTags>
+    <PackageProjectUrl>https://github.com/Universite-Laval-SAS/GuardClauses</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Universite-Laval-SAS/GuardClauses</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Added .NET 9 support.</PackageReleaseNotes>
 
-    <ItemGroup>
-        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
-    </ItemGroup>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>
+      $(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb
+    </AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
 
-    <ItemGroup>
-        <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
-        <None Include="..\..\README.md" Pack="true" PackagePath="">
-            <Link>Properties\README.md</Link>
-        </None>
-    </ItemGroup>
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\Ardalis.GuardClauses.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="">
+      <Link>Properties\README.md</Link>
+    </None>
+  </ItemGroup>
 
 </Project>
