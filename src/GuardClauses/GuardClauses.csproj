@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <PackageId>Ardalis.GuardClauses.Net9</PackageId>
+        <PackageId>ardalis.guardclauses.net9</PackageId>
         <Title>Ardalis.GuardClauses.Net9</Title>
         <Version>5.0.6</Version>
         <AssemblyName>Ardalis.GuardClauses.Net9</AssemblyName>
